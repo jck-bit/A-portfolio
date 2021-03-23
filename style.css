@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 10px;
+	font-family: 'montserrat' , 'sans-serif';
+}
+
+.container{
+	width: 100%;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* The hero section */
+.hero{
+	min-height:80vh;
+	width: 100%;
+	padding-top: 50px;
+	justify-content: center;
+	background-color: black; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    font-size: 13px;
+}
+
+.hero .hero-info{
+	width: 100%;
+	text-align: center;
+}
+.hero .hero-info .hero-info-heading{
+	font size: 10rem;
+	font-weight: 700;
+	color: white;
+
+}
+
+
+
+
+/* The hero section */
