@@ -42,6 +42,27 @@ html{
 
 }
 
+.hero .hero-info .hero-info-subheading {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: 0.3rem;
+	color: whitesmoke;
+}
+
+.hero .hero-info .hero-info-button{
+	margin-top: 30px;
+	padding-top: 2rem 5rem;
+	display: inline-block;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.6rem;
+	background-color: #383838;
+
+
+}
+
 
 
 
