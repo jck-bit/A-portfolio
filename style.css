@@ -122,4 +122,9 @@ html{
 	position: relative;
 	display: inline-block;
 }
+
+.about .about-img .img-img-wrapper img{
+	height: 100%;
+	width: 100%;
+}
 /* End About section*/
