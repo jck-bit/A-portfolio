@@ -76,6 +76,34 @@ html{
 
 }
 
+/* The hero section */
 
+/*About section*/
+.about{
+	width: 100%;
+	min-width: 50vh;
+	padding: 10rem 5rem;
+	flex-direction: column;
 
-/* The hero section */ 
+}
+.about .about-info{
+    text-align: center;
+}
+.about .about-info .about-info-heading{
+	font-size: 4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	color: black;
+}
+
+.about .about-info .about-info-desc{
+	font-size: 1.3rem;
+    line-height: 2rem;
+    margin-top: 10px;
+}
+.about .about-info .about-info-button{
+	padding:1.6rem 2.6rem;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.548);
+}
+/* End About section*/
