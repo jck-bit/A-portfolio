@@ -7,7 +7,7 @@
 
 html{
 	font-size: 10px;
-	font-family: 'montserrat' , 'sans-serif';
+	
 }
 
 .container{
@@ -128,3 +128,16 @@ html{
 	width: 100%;
 }
 /* End About section*/
+
+ /* service section */
+ .services{
+ 	flex-direction: column;
+ 	min-height: 60vh
+ 	padding:10 rem 5rem;
+ }
+ .services .services-header{
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+ /*  end service section */
