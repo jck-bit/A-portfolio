@@ -146,5 +146,52 @@ html{
  	letter-spacing: 2px;
  	color: black;
  }
+  .service .services-header-desc{
+  	font-size: 1.3rem;
+  	line-height: 2rem;
+  	margin-top: 20px;
+  }
 
- /*  end service section */
+.services .services-info{
+	margin-top: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column; 
+}
+.services .services-info .service{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    transition: .3s ease transform;
+    margin: 5px;
+ }
+
+ .services .services-info .service .service-card{
+ 	position: absolute;
+ 	height: 100%;
+ 	width: 100%;
+    transform-style: preserve-3d;
+    transform: .3s ease transform;
+    display: block;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  end service section */
