@@ -7,7 +7,7 @@
 
 html{
 	font-size: 10px;
-	
+	font-family: 'montserrat' , 'sans-serif';
 }
 
 .container{
@@ -138,6 +138,13 @@ html{
  .services .services-header{
  	width: 100%;
  	text-align: center;
+ }
+
+ .service .services-header .services-header-heading{
+ 	font-size: 4rem;
+ 	text-transform: uppercase;
+ 	letter-spacing: 2px;
+ 	color: black;
  }
 
  /*  end service section */
