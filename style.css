@@ -133,7 +133,7 @@ html{
  .services{
  	flex-direction: column;
  	min-height: 60vh
- 	padding:10 rem 5rem;
+    padding:10 rem 5rem;
  }
  .services .services-header{
  	width: 100%;
@@ -159,6 +159,7 @@ html{
 	justify-content: center;
 	width: 100%;
 	flex-direction: column; 
+	padding: 15px;
 }
 .services .services-info .service{
     width: 100%;
