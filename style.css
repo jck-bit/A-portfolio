@@ -5,7 +5,7 @@
 	box-sizing: border-box;
 }
 
-html{
+html{ 
 	font-size: 10px;
 	font-family: 'montserrat' , 'sans-serif';
 }
@@ -176,9 +176,39 @@ html{
     transform: .3s ease transform;
     display: block;
  }
+ .services .services-info .service .service-card .service-front,
+ .services .services-info .service .service-card .service-back{
+ 	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	height: 100%;
+ 	width:100%;
+ 	backface-visibility: hidden;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: center;
+ 	background-color: rgba(0, 0, 0, 0.13); 
+ 	padding: 10px;
+ }
 
+ .services .services-info .service .service-card .service-front{
+ 	font-size: 2rem;
+ 	color: black;
+ 	margin-bottom: 10px;
 
+ }
+  .services .services-info .service .service-card .service-back{
+ 	transform: rotateY(180deg);
+ }
+.services .services-info .service .service-card .service-front-head{
+    font-size:2.5rem;
+    text-transform: capitalize;
 
+}
+.services .services-info .service:hover .service-card{
+	transform: rotateY(180deg);
+}
 
 
 
