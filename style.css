@@ -28,7 +28,7 @@ html{
 	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: center;
-    font-size: 13px;
+    
 }
 
 .hero .hero-info{
@@ -202,7 +202,8 @@ html{
   .services .services-info .service .service-card .service-back{
  	transform: rotateY(180deg);
  }
-.services .services-info .service .service-card .service-front-head{
+.services .services-info .service .service-card .service-front-heading,
+.services .services-info .service .service-card .service-back-heading{
     font-size:2.5rem;
     text-transform: capitalize;
 
@@ -210,8 +211,27 @@ html{
 .services .services-info .service:hover .service-card{
 	transform: rotateY(180deg);
 }
-
-
+.services .services-info .service .service-card .service-back .service-back-desc{
+	font-size: 1.3rem
+	margin-top10px;
+	text-align: center;
+}
+.services .services-info .service:nth-child(2) .service-card .service-front{
+	background-image: url(./images/images.jpg);
+	background-size: cover;
+	position: relative;
+	color: white;
+}
+.services .services-info .service:nth-child(2) .service-card .service-front:: after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.274);
+	z-index: -1;
+}
 
 
 
