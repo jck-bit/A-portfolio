@@ -102,12 +102,12 @@ html{
     margin-top: 10px;
 }
 .about .about-info .about-info-button{
-	padding:1.6rem 2.6rem;
+	padding:1.6rem 1.6rem;
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0.548);
 	color: whitesmoke;
 	text-decoration:none; 
-	font-size: 1.6rem;
+	font-size: 2.6rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	margin-top: 20px;
@@ -177,6 +177,10 @@ html{
     transform: .3s ease transform;
     display: block;
  }
+ .services .services-info .service .service-card .service-front .service-back-desc{
+ 	font-size: 1.3rem;
+ }
+
  .services .services-info .service .service-card .service-front,
  .services .services-info .service .service-card .service-back{
  	position: absolute;
@@ -212,8 +216,8 @@ html{
 	transform: rotateY(180deg);
 }
 .services .services-info .service .service-card .service-back .service-back-desc{
-	font-size: 1.3rem
-	margin-top10px;
+	font-size: 1.36rem;
+	margin-top:10px;
 	text-align: center;
 }
 .services .services-info .service:nth-child(2) .service-card .service-front{
@@ -232,8 +236,9 @@ html{
 	background-color: rgba(0, 0, 0, 0.274);
 	z-index: -1;
 }
-
-
+.services .services-info .service:nth-child(2) .service-card .service-front i{
+	color: white; 
+}
 
 
 
