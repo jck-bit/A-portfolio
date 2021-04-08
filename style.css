@@ -242,12 +242,15 @@ html{
 
 
 
-
-
-
-
-
-
-
-
 /*  end service section */
+
+/*hire section*/
+.hire{
+	min-height: 10vh;
+	flex-direction: column;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.212);
+	padding: 3rem 2rem;
+ }
+
+/*end hire section*/
