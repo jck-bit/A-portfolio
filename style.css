@@ -290,3 +290,21 @@ flex-direction: column;
 text-align: center;	
 padding: 5rem;
 }
+
+.footer .footer-contact{
+	padding: 20px;
+}
+
+.footer .footer-contact .footer-contact-heading{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 10px; 
+}
+.footer .footer-contact .footer-contact-info{
+	font-size: 1.4rem;
+	padding-top: 10px;
+	letter-spacing: .2rem;
+}
+.footer
+/* end footer section*?
